@@ -1,15 +1,15 @@
 # Decision-Support System to select best celphone.
 This is a simple example of prescriptive analytics. In this case we implemented AHP and TOPSIS in python to help a human selecting a phone within an array of 10k celphone options based on a given budget.
 
-## Autor
+## Author
 
 * Patricio J. Gerpe
 
-## Tech stack
+### Tech stack
 
 * Python 2.7
 
-## Libraries:
+### Libraries:
 
 * Numpy
 
