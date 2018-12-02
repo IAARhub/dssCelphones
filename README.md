@@ -36,7 +36,9 @@ That algorithm works the following way:
 4. We calculate the ideal solution. (By selecting values of the set of alternatives that are maximising benefitial criteria and minimising cost criteria).
 5. We calculate the anti-ideal solution. (By selecting values of the set of alternatives that are minimising benefitial criteria and maximising cost criteria).
 6. For each alternative we compute the euclidean distance from the ideal and anti-ideal solution.
+![](https://i.stack.imgur.com/tQdee.png)
 7. For each alternative we compute the performance score. (It is the distance from anti-ideal solution divided by the sum of the distance to ideal and anti-ideal solution)
+![](https://i.stack.imgur.com/DRdj6.png)
 8. We rank the options in descending order according to performance score.
 
 Once we have the rank we checked if the alternative is within the range of our user. If not we iterate until finding the best affordable solution.
